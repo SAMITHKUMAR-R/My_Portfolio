@@ -51,3 +51,8 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
+
+// Automatically update the copyright year
+document.getElementById('year').textContent = new Date().getFullYear();
+
+// --- End of script.js ---
