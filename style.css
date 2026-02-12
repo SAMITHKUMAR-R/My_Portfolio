@@ -1,4 +1,5 @@
 /* --- CSS Variables & Ocean Theme Palette --- */
+
 :root {
     --primary-color: #0077b6; /* Deep Ocean Blue */
     --secondary-color: #00b4d8; /* Brighter Aqua */
@@ -70,6 +71,7 @@ body {
     border: 1px solid var(--glass-border);
     box-shadow: var(--shadow);
 }
+
 
 /* Navigation */
 /* --- Optimized Centered Navbar --- */
@@ -460,4 +462,3 @@ footer {
 .skill-tag:hover i {
     color: white;
 }
-
