@@ -1,4 +1,4 @@
-// --- Theme Toggle ---
+// Theme Toggle
 const toggleBtn = document.getElementById('theme-toggle');
 const body = document.body;
 const icon = toggleBtn.querySelector('i');
@@ -25,7 +25,7 @@ toggleBtn.addEventListener('click', () => {
     }
 });
 
-// --- Smooth Scroll for Safari/older browsers ---
+// Smooth Scroll for Safari/older browsers
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -35,7 +35,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// --- Scroll Animations (Intersection Observer) ---
+// Scroll Animations (Intersection Observer)
 // This detects when elements enter the screen and animates them
 const observerOptions = {
     threshold: 0.2 // Trigger when 20% of the element is visible
@@ -55,4 +55,5 @@ hiddenElements.forEach((el) => observer.observe(el));
 // Automatically update the copyright year
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// --- End of script.js ---
+
+// End of script.js
