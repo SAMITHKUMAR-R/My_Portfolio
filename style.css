@@ -417,7 +417,6 @@ footer {
     font-size: 1.5rem;
 }
 
-/* Floating Animation for Icons */
 .floating {
     animation: floatingIcon 3s ease-in-out infinite;
 }
