@@ -428,7 +428,6 @@ footer {
     100% { transform: translateY(0px); }
 }
 
-/* Styled Skill Tags */
 .skill-tags {
     display: flex;
     flex-wrap: wrap;
